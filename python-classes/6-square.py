@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-'''Define a class Square.'''
+'''Defining a class Square.'''
 
 
 class Square:
@@ -50,7 +50,7 @@ class Square:
     def my_print(self):
         '''Print the square with the # character.'''
         if self.__size == 0:
-            pri('')
+            print('')
             return
 
         [print('') for i in range(0, self.__position[1])]
