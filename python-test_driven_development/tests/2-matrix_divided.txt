@@ -160,5 +160,5 @@ is raised.
 
 ::
 
-    >>> print(matrix_divided(matrix, 0))
+    >>> print(2-matrix_divided(matrix, 0))
     Traceback (most recent call last):
