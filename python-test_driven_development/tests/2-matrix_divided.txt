@@ -1,4 +1,3 @@
-==============================
 How to Use 2-matrix_divided.py
 ==============================
 
@@ -12,7 +11,7 @@ Usage
 
 ::
 
-    >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+    >>> matrix_divided = _import_('2-matrix_divided').matrix_divided
     >>> matrix = [
     ...     [3, 6, 9],
     ...     [12, 15, 18]
@@ -162,3 +161,4 @@ is raised.
 
     >>> print(matrix_divided(matrix, 0))
     Traceback (most recent call last):
+    ZeroDivisionError: division by zero
